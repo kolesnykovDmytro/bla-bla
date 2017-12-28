@@ -1,5 +1,5 @@
 Helo
-npm i --> gulp --> gulp bild
+npm i --> gulp --> gulp build
 
 P.s.best regards
 
