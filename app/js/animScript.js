@@ -1,31 +1,3 @@
-
-
-	// $('.btn-next').click(function() {
-	// 	var tl = new TimelineMax();
-	// 	tl.to('.info_block', 1, {opacity:0}).to('#second_bar', 1, {right:-900}).to('#third_bar', 1, {right:0});
-	// });
-
-	// $('#radio1').click(function() {
-
-	// 	tl.to('#btnNext', 0, {opacity:1}).to('#countB', 0, {scale: 0}).to('#countC', 0, {scale: 0}).to('#countA', 1, {scale: 1});
-
-	// 	tl.staggerFromTo('.count__value .letter', 0, {y: 20,opacity: 0,}, {y:0,opacity: 1,ease: Back.easeOut.config(1)},0.05);
-	// });
-
-	// $('#radio2').click(function() {
-	// 	tl.to('#btnNext', 0, {opacity:1}).to('#countA', 0, {scale: 0}).to('#countC', 0, {scale: 0}).to('#countB', 1, {scale: 1});
-
-	// 	tl.staggerFromTo('.count__value .letter', 1, {y: 20,opacity: 0,}, {y:0,opacity: 1,ease: Back.easeOut.config(1)},0.05);
-	// });
-
-	// $('#radio3').click(function() {
-		
-	// 	tl.to('#btnNext', 0, {opacity:1}).to('#countA', 0, {scale: 0}).to('#countB', 0, {scale: 0}).to('#countC', 1, {scale: 1});
-
-	// 	tl.staggerFromTo('.count__value .letter', 1, {y: 20,opacity: 0,}, {y:0,opacity: 1,ease: Back.easeOut.config(1)},0.05);
-	// });
-
-
 $(document).ready(function(){
 
 	var tl = new TimelineMax();
@@ -39,9 +11,6 @@ $(document).ready(function(){
 	$('.btn-next').click(function() {
 		tl.to('.counter_block', .5, {opacity:0}).to('#second_bar', 1, {right:-900}).to('#third_bar', 1, {right:0});
 	});
-
-
-	radio__label
 
 	$('.content_block:not(.block-signup) input').click(function(){
 		$(this).closest('.content_block').find('.btn_next').addClass('active');
